@@ -69,14 +69,32 @@ body {
   top: 0;
   right: 0;
   left: 0;
-  z-index: -20;
+  z-index: 0;
   text-transform: uppercase;
   height:200px;
-  background: url(/assets/slide/5.jpg) center;
+  overflow: hidden;
+  background: #000 url(/assets/slide/5.jpg) center;
 }
 
 .heading h1 {color:#FFF;}
 
+/*
+.heading img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index:-1;
+  top:-50%;
+  min-width: 100%;
+}
+*/
+
+#myModal .modal-content {
+  height:500px;
+}
+#myModal .modal-body {
+  height:100%;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
