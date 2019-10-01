@@ -1,0 +1,11 @@
+- name: eruraindil
+  twitter: eruraindil
+  role: owner
+
+- name: ScandinavianLeif
+  twitter:
+  role: op
+
+- name: tpony
+  twitter:
+  role: member
